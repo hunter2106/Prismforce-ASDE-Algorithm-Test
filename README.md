@@ -21,7 +21,7 @@ As the number of circles is very few, we can solve it using **BACKTRACKING** inc
 Let's denote:
 * The set of circles as $C(i):\ i\ \epsilon\ [1, 11]$.
 * Abhimanyu's power as $p_j:\ j\ \forall\ C(i):\ i\ \epsilon\ [1, 11]$.
-* The power of the enemy as $k_i\ :\ i\ \epsilon\ [1, 11]$.
+* The power of the enemy as $k_i$ : $i\ \epsilon\ [1, 11]$.
 * The number of skips available as $a$.
 * The number of recharges available as $b$.
 * $R(k) = \frac{k}{2}$ as the regenerated power of $k_3$ and $k_7$.
@@ -46,11 +46,13 @@ There will be basically 2 Backtracking conditions:
 Let's denote:
 * The set of circles as $C(i):\ i\ \epsilon\ [1, 11]$.
 * Abhimanyu's power as $p_j:\ j\ \forall\ C(i):\ i\ \epsilon\ [1, 11]$.
-* The power of the enemy as $k_i\ :\ i\ \epsilon\ [1, 11]$.
+* The power of the enemy as $k_i$ : $i\ \epsilon\ [1, 11]$.
 * The number of skips available as $a$.
 * The number of recharges available as $b$.
+  
   [Notice how after splitting the backtracking into 2 conditions we don't need to take care of recharging separately now, because it will now only be used in attacking when power is not enough]
-  [So changing variable $b\ \Longrightarrow\ b_j:\ j\ \forall\ C(i):\ i\ \epsilon\ [1, 11]$
+  
+  [So changing variable to constant: $b\ \Longrightarrow\ b_j:\ j\ \forall\ C(i):\ i\ \epsilon\ [1, 11]$
 #### State Representation: $C(k,\ p_j,\ a,\ b_j,\ i)$
 
 #### Backtracking conditions:
