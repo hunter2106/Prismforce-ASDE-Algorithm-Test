@@ -14,8 +14,8 @@ Imagine Abhimanyu in Chakravyuha. There are 11 circles in the Chakravyuha surrou
 
 Write an algorithm to find if Abhimanyu can cross the Chakravyuh and test it with two sets of test cases.
 
-## Intuition with Solution Step by Step:
-As the number of circles is very few, we can solve it using **Backtracking** including all combinations of fighting, skipping, and recharging.
+## Intuition with Solution (Step by Step):
+As the number of circles is very few, we can solve it using **BACKTRACKING** including all combinations of fighting, skipping, and recharging.
 
 ### Why not Dynamic Programming?
 Let's denote:
